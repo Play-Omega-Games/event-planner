@@ -18,7 +18,11 @@ def fields(p, today):
     f = Blank()
     for k in ("event_name", "business_name", "owner_name", "time_window", "venue_name", "venue_address", "goal", "start_time", "sponsor_name"):
         if p.get(k): f[k] = p[k]
-    if p.get("type"): f["event_type_lower"] = TYPES[p["type"]]["label"].lower()
+    if p.get("type"):
+        f["event_type_lower"] = "event" if p["type"] == "other" else TYPES[p["type"]]["label"].lower()
+        f["a_event_type"] = ("an " if f["event_type_lower"][0] in "aeiou" else "a ") + f["event_type_lower"]
+    else:
+        f["a_event_type"] = "a [event type]"
     if p.get("headcount"): f["headcount"] = str(p["headcount"])
     if p.get("food") in FOOD: f["food_style"] = FOOD[p["food"]]
     if p.get("date"):
@@ -32,7 +36,8 @@ def fields(p, today):
 def fill(draft_id, p, today=None):
     drafts = {d["id"]: d for d in json.load(open(os.path.join(ROOT, "data", "drafts.json")))["drafts"]}
     d = drafts[draft_id]
-    return string.Formatter().vformat(d["skeleton"], (), fields(p, today or dt.date.today()))
+    skeleton = d["skeleton"].replace("a {event_type_lower}", "{a_event_type}")
+    return string.Formatter().vformat(skeleton, (), fields(p, today or dt.date.today()))
 
 if __name__ == "__main__":
     a = sys.argv[1:]
