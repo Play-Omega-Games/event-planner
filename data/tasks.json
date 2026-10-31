@@ -1,0 +1,1473 @@
+{
+ "phases": [
+  [
+   "foundations",
+   "Foundations"
+  ],
+  [
+   "book",
+   "Book the big pieces"
+  ],
+  [
+   "promote",
+   "Spread the word"
+  ],
+  [
+   "details",
+   "Lock the details"
+  ],
+  [
+   "week",
+   "Event week"
+  ],
+  [
+   "day",
+   "Event day"
+  ],
+  [
+   "wrap",
+   "Wrap up"
+  ]
+ ],
+ "tasks": [
+  {
+   "id": "goal",
+   "title": "Write the goal in one sentence and pick how you'll measure it",
+   "why": "Every later choice gets easier once you know what a win looks like. Pick one or two numbers you can actually count afterward.",
+   "phase": "foundations",
+   "offset": 84,
+   "latest": 42,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "budget_cap",
+   "title": "Set your total budget cap",
+   "why": "Decide the number you won't go over before any quotes arrive. Every budget line then comes from your real quotes and costs. If you want a cushion for surprises, pick your own percentage and the tracker holds it back.",
+   "phase": "foundations",
+   "offset": 84,
+   "latest": 42,
+   "priority": 1,
+   "when": {},
+   "category": "budget",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "date_check",
+   "title": "Check the date against holidays, local events and your own busy days, and pick a backup date",
+   "why": "A clash with a big local event or a holiday weekend can empty the room. A backup date makes venue and vendor talks easier.",
+   "phase": "foundations",
+   "offset": 84,
+   "latest": 49,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "guest_list",
+   "title": "Build the guest list and a headcount estimate",
+   "why": "Regulars, neighbors, partners, local groups, press. Headcount drives the space, the food and most of the budget.",
+   "phase": "foundations",
+   "offset": 80,
+   "latest": 35,
+   "priority": 1,
+   "when": {},
+   "category": "guests",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "roles",
+   "title": "Give each area one owner: guests, vendors, setup, social, money",
+   "why": "Even a team of two runs smoother when every area has exactly one person who decides.",
+   "phase": "foundations",
+   "offset": 77,
+   "latest": 28,
+   "priority": 2,
+   "when": {
+    "help": [
+     "team",
+     "planner"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "permits_ask",
+   "title": "Ask your city or county what this event needs and how much notice they want",
+   "why": "Rules depend on where you are. Ask about event or temporary use permits, tents, amplified sound, signs, street or sidewalk use, food, alcohol and occupancy limits.",
+   "phase": "foundations",
+   "offset": 84,
+   "latest": 28,
+   "priority": 1,
+   "when": {},
+   "category": "safety",
+   "draft": null,
+   "link": "permits",
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "insurance_ask",
+   "title": "Call your insurance agent about this event",
+   "why": "Ask whether your policy covers this event, your guests and any off-site location, and whether you need a one-day event policy or liquor liability cover.",
+   "phase": "foundations",
+   "offset": 77,
+   "latest": 28,
+   "priority": 1,
+   "when": {},
+   "category": "safety",
+   "draft": null,
+   "link": "insurance",
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "charity_permission",
+   "title": "Confirm the cause and get written permission to use the charity's name and logo",
+   "why": "Charities usually approve how their name is used. Only a qualified charity can give donors a tax receipt, so agree up front who handles donations and receipts.",
+   "phase": "foundations",
+   "offset": 84,
+   "latest": 42,
+   "priority": 1,
+   "when": {
+    "type": [
+     "fundraiser"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": "charity_receipts",
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "fundraising_goal",
+   "title": "Set the fundraising goal and how you'll show progress",
+   "why": "A clear goal and a visible progress count give people a reason to give now. Use only real totals.",
+   "phase": "foundations",
+   "offset": 63,
+   "latest": 21,
+   "priority": 2,
+   "when": {
+    "type": [
+     "fundraiser"
+    ]
+   },
+   "category": "budget",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "workshop_outline",
+   "title": "Outline the workshop: the outcome, the agenda and the materials",
+   "why": "People sign up for what they'll walk away with. Write the outcome in one line, then time the agenda in 15-minute blocks with a buffer at the end.",
+   "phase": "foundations",
+   "offset": 70,
+   "latest": 28,
+   "priority": 1,
+   "when": {
+    "type": [
+     "workshop"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "launch_ready",
+   "title": "Set a go or no-go date for the product or service being launched",
+   "why": "A launch with nothing to buy wastes the buzz. Decide now what has to be true by that date, and what happens if it slips.",
+   "phase": "foundations",
+   "offset": 70,
+   "latest": 21,
+   "priority": 1,
+   "when": {
+    "type": [
+     "launch"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "popup_host",
+   "title": "Shortlist host spaces or markets and ask about their terms",
+   "why": "Ask about fees or revenue share, hours, setup and pack-down times, what's provided (tables, power, Wi-Fi), insurance and how sales tax is handled.",
+   "phase": "foundations",
+   "offset": 70,
+   "latest": 35,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "host"
+    ]
+   },
+   "category": "venue",
+   "draft": "venue_inquiry",
+   "link": null,
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "venue_inquiries",
+   "title": "Send venue inquiries to your top two or three spaces",
+   "why": "Same questions to each so quotes compare cleanly: dates, hours including setup and teardown, headcount, what's included, deposit and cancellation, insurance, end time and noise rules.",
+   "phase": "book",
+   "offset": 70,
+   "latest": 35,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "rented",
+     "outdoor",
+     "tbd"
+    ]
+   },
+   "category": "venue",
+   "draft": "venue_inquiry",
+   "link": null,
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "site_visit",
+   "title": "Visit the space at the same time of day as the event",
+   "why": "Check light, noise, parking, power outlets, restrooms, step-free entry, the load-in path and phone signal. Take photos and measurements.",
+   "phase": "book",
+   "offset": 63,
+   "latest": 28,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "rented",
+     "outdoor",
+     "host",
+     "tbd"
+    ]
+   },
+   "category": "venue",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "venue_inquiries",
+    "popup_host"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "venue_book",
+   "title": "Book the space and read the agreement before you sign",
+   "why": "Look for the deposit, the cancellation and weather terms, the hard end time, cleanup rules, insurance requirements and anything billed as extra. Get it in writing.",
+   "phase": "book",
+   "offset": 56,
+   "latest": 21,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "rented",
+     "outdoor",
+     "host",
+     "tbd"
+    ]
+   },
+   "category": "venue",
+   "draft": "booking_confirmation",
+   "link": null,
+   "vendor_contact": true,
+   "after": [
+    "venue_inquiries",
+    "popup_host",
+    "site_visit"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "own_layout",
+   "title": "Plan the layout of your own space",
+   "why": "Walk it as a guest: entry, check-in, where people gather, eat, buy and exit. Keep exits and aisles clear and know your space's occupancy limit.",
+   "phase": "book",
+   "offset": 49,
+   "latest": 14,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "own"
+    ]
+   },
+   "category": "venue",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "caterer_quotes",
+   "title": "Get two or three food quotes",
+   "why": "Share the headcount, service style, dietary needs and timing. Ask what's included (staff, rentals, cleanup), their deadline for the final headcount and their insurance.",
+   "phase": "book",
+   "offset": 56,
+   "latest": 21,
+   "priority": 1,
+   "when": {
+    "food": [
+     "light",
+     "meal"
+    ]
+   },
+   "category": "vendors",
+   "draft": "caterer_inquiry",
+   "link": null,
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "caterer_book",
+   "title": "Book food and note the final headcount deadline on your plan",
+   "why": "Confirm the menu, service times, staffing, deposit and the date they need your final count. Put that date on the checklist.",
+   "phase": "book",
+   "offset": 49,
+   "latest": 14,
+   "priority": 1,
+   "when": {
+    "food": [
+     "light",
+     "meal"
+    ]
+   },
+   "category": "vendors",
+   "draft": "booking_confirmation",
+   "link": null,
+   "vendor_contact": true,
+   "after": [
+    "caterer_quotes"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "food_sellers",
+   "title": "Invite food trucks or sellers and collect their permits and insurance",
+   "why": "Sellers usually need their own food permits for temporary events. Ask for copies, their power and space needs, and arrival times.",
+   "phase": "book",
+   "offset": 56,
+   "latest": 21,
+   "priority": 1,
+   "when": {
+    "food": [
+     "sellers"
+    ]
+   },
+   "category": "vendors",
+   "draft": "vendor_inquiry",
+   "link": "permits",
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "alcohol_plan",
+   "title": "Decide how drinks will be served and check the rules",
+   "why": "Serving free drinks and selling them often fall under different rules. Use a licensed bartender or caterer where required, check IDs, and ask your insurer about liquor liability.",
+   "phase": "book",
+   "offset": 56,
+   "latest": 21,
+   "priority": 1,
+   "when": {
+    "alcohol": [
+     "served",
+     "sold"
+    ]
+   },
+   "category": "safety",
+   "draft": null,
+   "link": "permits",
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "alcohol_license",
+   "title": "If you're selling drinks, confirm the license or permit you need",
+   "why": "Selling alcohol without the right license is a serious risk. Your city, county or state licensing office can tell you what applies and how long it takes.",
+   "phase": "book",
+   "offset": 56,
+   "latest": 28,
+   "priority": 1,
+   "when": {
+    "alcohol": [
+     "sold"
+    ]
+   },
+   "category": "safety",
+   "draft": null,
+   "link": "alcohol",
+   "vendor_contact": true,
+   "after": [
+    "alcohol_plan"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "rentals",
+   "title": "Reserve rentals: tables, chairs, tent, linens, sound",
+   "why": "Busy dates book up. Confirm delivery and pickup windows, who sets up, and what happens if it rains.",
+   "phase": "book",
+   "offset": 49,
+   "latest": 14,
+   "priority": 2,
+   "when": {
+    "venue": [
+     "rented",
+     "outdoor",
+     "tbd"
+    ],
+    "size": [
+     "medium",
+     "large",
+     "xl"
+    ]
+   },
+   "category": "vendors",
+   "draft": "rentals_inquiry",
+   "link": null,
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "weather_plan",
+   "title": "Make a rain, heat and wind plan",
+   "why": "Decide your backup space or tent, your call time for moving or postponing, and who tells guests. Tents need proper weights or stakes; ask the rental company.",
+   "phase": "book",
+   "offset": 49,
+   "latest": 14,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "outdoor"
+    ]
+   },
+   "category": "safety",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "extras_book",
+   "title": "Book a photographer, entertainment or speaker if you want one",
+   "why": "Ask what they need from you (power, space, a meal, parking) and when they arrive. Agree on how photos can be used.",
+   "phase": "book",
+   "offset": 49,
+   "latest": 21,
+   "priority": 3,
+   "when": {},
+   "category": "vendors",
+   "draft": "vendor_inquiry",
+   "link": null,
+   "vendor_contact": true,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "workshop_materials",
+   "title": "Order workshop materials and confirm any co-host",
+   "why": "Order a few extra sets. Confirm the co-host's timing, what they bring and how they're paid.",
+   "phase": "book",
+   "offset": 35,
+   "latest": 10,
+   "priority": 1,
+   "when": {
+    "type": [
+     "workshop"
+    ]
+   },
+   "category": "vendors",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "signup_setup",
+   "title": "Set up RSVPs or tickets with a clear capacity",
+   "why": "Use one sign-up tool, cap it at what the space can hold, and ask only what you need: name, email, dietary and access needs, and permission for follow-up emails.",
+   "phase": "book",
+   "offset": 49,
+   "latest": 21,
+   "priority": 1,
+   "when": {
+    "entry": [
+     "rsvp",
+     "tickets",
+     "donations"
+    ]
+   },
+   "category": "guests",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "popup_inventory",
+   "title": "Plan inventory, pricing and payments",
+   "why": "Count what you'll bring, price everything clearly, test your card reader including what happens without internet, and plan a cash float.",
+   "phase": "book",
+   "offset": 42,
+   "latest": 10,
+   "priority": 1,
+   "when": {
+    "type": [
+     "popup"
+    ]
+   },
+   "category": "budget",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "sales_tax",
+   "title": "Check sales tax for selling at this location",
+   "why": "Selling at a temporary location can mean collecting tax there. Ask your tax office or accountant, or the market organizer.",
+   "phase": "book",
+   "offset": 42,
+   "latest": 14,
+   "priority": 1,
+   "when": {
+    "type": [
+     "popup"
+    ]
+   },
+   "category": "budget",
+   "draft": null,
+   "link": "taxes",
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "sponsors",
+   "title": "Ask local businesses for sponsorship or in-kind donations",
+   "why": "Offer something concrete in return: a thank-you on signs and posts, a table, a mention from the stage. Ask early; budgets get set ahead.",
+   "phase": "book",
+   "offset": 63,
+   "latest": 28,
+   "priority": 2,
+   "when": {
+    "type": [
+     "fundraiser"
+    ]
+   },
+   "category": "budget",
+   "draft": "sponsor_ask",
+   "link": null,
+   "vendor_contact": true,
+   "after": [
+    "fundraising_goal"
+   ],
+   "min_runway": 21
+  },
+  {
+   "id": "raffle_check",
+   "title": "Check the rules before any raffle, auction or game of chance",
+   "why": "Many places restrict raffles to registered charities and require a permit. Check before you sell a single ticket.",
+   "phase": "book",
+   "offset": 63,
+   "latest": 35,
+   "priority": 1,
+   "when": {
+    "type": [
+     "fundraiser"
+    ]
+   },
+   "category": "safety",
+   "draft": null,
+   "link": "gaming",
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "accessibility",
+   "title": "Plan for accessibility",
+   "why": "Step-free entry, a route without obstacles, seating, an accessible restroom, clear signs, a microphone or captions for talks. Ask guests about access needs when they sign up.",
+   "phase": "book",
+   "offset": 42,
+   "latest": 14,
+   "priority": 1,
+   "when": {},
+   "category": "safety",
+   "draft": null,
+   "link": "accessibility",
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "vendor_coi",
+   "title": "Collect certificates of insurance from vendors",
+   "why": "Many venues require them, and they protect you if a vendor's equipment or staff cause damage or injury. Ask whether the venue needs to be named on them.",
+   "phase": "book",
+   "offset": 28,
+   "latest": 10,
+   "priority": 2,
+   "when": {
+    "venue": [
+     "rented",
+     "outdoor",
+     "host",
+     "tbd"
+    ]
+   },
+   "category": "vendors",
+   "draft": "coi_request",
+   "link": null,
+   "vendor_contact": true,
+   "after": [
+    "venue_book",
+    "caterer_book",
+    "food_sellers",
+    "rentals",
+    "extras_book"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "save_the_date",
+   "title": "Send a save-the-date to your key guests",
+   "why": "Busy people fill their calendars early. A short note now beats a perfect invite later.",
+   "phase": "promote",
+   "offset": 49,
+   "latest": 28,
+   "priority": 2,
+   "when": {
+    "size": [
+     "medium",
+     "large",
+     "xl"
+    ]
+   },
+   "category": "guests",
+   "draft": "save_the_date",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 28
+  },
+  {
+   "id": "invitation",
+   "title": "Send the invitation",
+   "why": "What, when, where, why it's worth coming, and one clear way to respond. Personal invites to your top guests work best.",
+   "phase": "promote",
+   "offset": 35,
+   "latest": 14,
+   "priority": 1,
+   "when": {},
+   "category": "guests",
+   "draft": "invitation",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "goal",
+    "date_check"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "announce_post",
+   "title": "Post the announcement",
+   "why": "Lead with why it's worth coming, then the date, time, place and how to sign up.",
+   "phase": "promote",
+   "offset": 35,
+   "latest": 10,
+   "priority": 1,
+   "when": {},
+   "category": "promo",
+   "draft": "social_announce",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "goal"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "listings",
+   "title": "List the event on local event calendars and your business profiles",
+   "why": "Many local calendars are free. Use the same short description everywhere.",
+   "phase": "promote",
+   "offset": 35,
+   "latest": 7,
+   "priority": 2,
+   "when": {},
+   "category": "promo",
+   "draft": "listing_blurb",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "in_store",
+   "title": "Tell regulars in person, on signs and with your receipts",
+   "why": "Your best guests are already walking through the door.",
+   "phase": "promote",
+   "offset": 28,
+   "latest": 7,
+   "priority": 2,
+   "when": {
+    "venue": [
+     "own"
+    ]
+   },
+   "category": "promo",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "partner_share",
+   "title": "Ask partners and vendors to share the event",
+   "why": "Give them ready-to-post text and an image so it takes them a minute.",
+   "phase": "promote",
+   "offset": 28,
+   "latest": 7,
+   "priority": 3,
+   "when": {},
+   "category": "promo",
+   "draft": "partner_share",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "press_note",
+   "title": "Send a short note to local press or newsletters",
+   "why": "Keep it to what's new, who it helps and the key details, with a contact for questions.",
+   "phase": "promote",
+   "offset": 28,
+   "latest": 10,
+   "priority": 3,
+   "when": {
+    "type": [
+     "launch",
+     "fundraiser"
+    ]
+   },
+   "category": "promo",
+   "draft": "press_note",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 14
+  },
+  {
+   "id": "bts_post",
+   "title": "Post a behind-the-scenes look",
+   "why": "Prep photos, a sneak peek or the people involved keep the event in people's feeds.",
+   "phase": "promote",
+   "offset": 21,
+   "latest": 5,
+   "priority": 3,
+   "when": {},
+   "category": "promo",
+   "draft": "social_bts",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "launch_moment",
+   "title": "Plan the launch moment",
+   "why": "Decide what happens at the peak of the event: the reveal, a short welcome, a first sale or demo. Keep any talk under five minutes.",
+   "phase": "promote",
+   "offset": 21,
+   "latest": 7,
+   "priority": 2,
+   "when": {
+    "type": [
+     "launch"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "open_house_demo",
+   "title": "Set up a reason to walk in and something to try",
+   "why": "A demo station, a tour time, a small offer for visitors, or a chance to meet the team.",
+   "phase": "promote",
+   "offset": 21,
+   "latest": 7,
+   "priority": 2,
+   "when": {
+    "type": [
+     "open_house"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "rsvp_reminder",
+   "title": "Send an RSVP or ticket reminder",
+   "why": "A friendly nudge with the key details and the sign-up link.",
+   "phase": "promote",
+   "offset": 10,
+   "latest": 5,
+   "priority": 1,
+   "when": {
+    "entry": [
+     "rsvp",
+     "tickets",
+     "donations"
+    ]
+   },
+   "category": "guests",
+   "draft": "rsvp_reminder",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "invitation",
+    "signup_setup"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "go_no_go",
+   "title": "Check sign-ups against your minimum and decide go or no-go",
+   "why": "If you set a minimum, decide now while guests and vendors can still be told kindly.",
+   "phase": "promote",
+   "offset": 10,
+   "latest": 5,
+   "priority": 1,
+   "when": {
+    "type": [
+     "workshop"
+    ]
+   },
+   "category": "guests",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "signup_setup"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "countdown_post",
+   "title": "Post a one-week countdown",
+   "why": "Short, upbeat and specific: one thing guests will see, try or get.",
+   "phase": "promote",
+   "offset": 7,
+   "latest": 5,
+   "priority": 2,
+   "when": {},
+   "category": "promo",
+   "draft": "social_countdown",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "announce_post"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "run_of_show",
+   "title": "Write the run of show, from setup to teardown",
+   "why": "Who does what, when and where, with every vendor's arrival time and contact. Share it with your team and vendors.",
+   "phase": "details",
+   "offset": 14,
+   "latest": 5,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": "run_of_show",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "venue_book",
+    "own_layout"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "vendor_confirm",
+   "title": "Confirm every vendor in writing",
+   "why": "Arrival time, setup location, contact on the day, what they bring, final amount and when it's due.",
+   "phase": "details",
+   "offset": 10,
+   "latest": 4,
+   "priority": 1,
+   "when": {},
+   "category": "vendors",
+   "draft": "vendor_final_details",
+   "link": null,
+   "vendor_contact": true,
+   "after": [
+    "venue_book",
+    "caterer_book",
+    "food_sellers",
+    "rentals",
+    "extras_book",
+    "workshop_materials"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "final_count",
+   "title": "Give the caterer your final headcount by their deadline",
+   "why": "Use RSVPs plus what you know about your own past turnout. Check the date they gave you.",
+   "phase": "details",
+   "offset": 7,
+   "latest": 3,
+   "priority": 1,
+   "when": {
+    "food": [
+     "light",
+     "meal"
+    ]
+   },
+   "category": "vendors",
+   "draft": null,
+   "link": null,
+   "vendor_contact": true,
+   "after": [
+    "caterer_book"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "signs_print",
+   "title": "Order signs, name tags, menus and handouts",
+   "why": "Wayfinding from the street, a welcome sign, prices for pop-ups, the sign-up or social handle at check-in.",
+   "phase": "details",
+   "offset": 14,
+   "latest": 5,
+   "priority": 2,
+   "when": {},
+   "category": "promo",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "staff_brief",
+   "title": "Brief staff and volunteers",
+   "why": "One page: the goal, the schedule, each person's job, where things are, who to ask, and what to do if something goes wrong.",
+   "phase": "details",
+   "offset": 7,
+   "latest": 2,
+   "priority": 1,
+   "when": {
+    "help": [
+     "team",
+     "planner"
+    ]
+   },
+   "category": "plan",
+   "draft": "staff_brief",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "run_of_show"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "checkin_flow",
+   "title": "Plan check-in and how you'll capture contacts",
+   "why": "A short line, a printed list as a backup, and a simple way for walk-ins to leave an email with permission.",
+   "phase": "details",
+   "offset": 10,
+   "latest": 3,
+   "priority": 2,
+   "when": {
+    "entry": [
+     "rsvp",
+     "tickets",
+     "donations"
+    ]
+   },
+   "category": "guests",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "safety_plan",
+   "title": "Write a one-page safety plan",
+   "why": "Exits, first aid kit, who calls emergency services and from where, a plan for a lost child or a medical issue, and the venue contact's number.",
+   "phase": "details",
+   "offset": 10,
+   "latest": 3,
+   "priority": 1,
+   "when": {
+    "size": [
+     "medium",
+     "large",
+     "xl"
+    ]
+   },
+   "category": "safety",
+   "draft": null,
+   "link": "emergency",
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "payments_due",
+   "title": "Pay deposits and balances on time",
+   "why": "Check the payment dates on the budget tracker. Late balances can cost you the booking.",
+   "phase": "details",
+   "offset": 14,
+   "latest": 3,
+   "priority": 1,
+   "when": {},
+   "category": "budget",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "photo_consent",
+   "title": "Plan photos and consent",
+   "why": "Tell guests photos will be taken, offer a no-photo option, and ask before posting close-ups, especially of children.",
+   "phase": "details",
+   "offset": 10,
+   "latest": 2,
+   "priority": 2,
+   "when": {},
+   "category": "safety",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "music_rights",
+   "title": "Check music rights",
+   "why": "Playing recorded music at a public or business event may need a public performance license. Ask your venue whether it already holds one.",
+   "phase": "details",
+   "offset": 14,
+   "latest": 5,
+   "priority": 3,
+   "when": {},
+   "category": "safety",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "event_kit",
+   "title": "Pack the event kit",
+   "why": "Tape, scissors, zip ties, extension cords, chargers, pens, a first aid kit, trash bags, cleaning supplies, spare batteries and printed copies of the run of show.",
+   "phase": "details",
+   "offset": 5,
+   "latest": 1,
+   "priority": 2,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "know_before",
+   "title": "Send the know-before-you-go note",
+   "why": "Parking, entrance, accessibility, what to bring, the start time and a phone number for the day.",
+   "phase": "details",
+   "offset": 3,
+   "latest": 1,
+   "priority": 1,
+   "when": {
+    "entry": [
+     "rsvp",
+     "tickets",
+     "donations"
+    ]
+   },
+   "category": "guests",
+   "draft": "know_before_you_go",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "invitation",
+    "rsvp_reminder"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "weather_call",
+   "title": "Check the forecast and make the weather call",
+   "why": "Decide at the call time you set and tell guests and vendors the same day.",
+   "phase": "details",
+   "offset": 3,
+   "latest": 1,
+   "priority": 1,
+   "when": {
+    "venue": [
+     "outdoor"
+    ]
+   },
+   "category": "safety",
+   "draft": "weather_update",
+   "link": null,
+   "vendor_contact": false,
+   "after": [
+    "weather_plan"
+   ],
+   "min_runway": 0
+  },
+  {
+   "id": "popup_display",
+   "title": "Set up your table or display once at home and photograph it",
+   "why": "A practice setup shows what's missing and makes the real one twice as fast.",
+   "phase": "details",
+   "offset": 7,
+   "latest": 2,
+   "priority": 2,
+   "when": {
+    "type": [
+     "popup"
+    ]
+   },
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "walkthrough",
+   "title": "Walk through the space with your run of show",
+   "why": "Stand where guests enter and go step by step. Fix anything confusing now.",
+   "phase": "week",
+   "offset": 2,
+   "latest": 1,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "day_before_post",
+   "title": "Post a day-before reminder",
+   "why": "Tomorrow, the time, the place and one reason not to miss it.",
+   "phase": "week",
+   "offset": 1,
+   "latest": 1,
+   "priority": 2,
+   "when": {},
+   "category": "promo",
+   "draft": "social_day_before",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "setup_test",
+   "title": "Set up and test sound, lights, Wi-Fi and payments before doors open",
+   "why": "Leave enough time that you're greeting guests, not fixing cables.",
+   "phase": "day",
+   "offset": 0,
+   "latest": 0,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "run_event",
+   "title": "Run the event: greet people, capture contacts, take photos, enjoy it",
+   "why": "Name one person to watch the clock and one to watch the door.",
+   "phase": "day",
+   "offset": 0,
+   "latest": 0,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "live_post",
+   "title": "Share a live photo or story",
+   "why": "One good photo during the peak moment is plenty.",
+   "phase": "day",
+   "offset": 0,
+   "latest": 0,
+   "priority": 3,
+   "when": {},
+   "category": "promo",
+   "draft": "social_live",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "donation_count",
+   "title": "Count and record donations with two people present",
+   "why": "Two people, a written tally and a photo of the total protect everyone.",
+   "phase": "day",
+   "offset": 0,
+   "latest": 0,
+   "priority": 1,
+   "when": {
+    "type": [
+     "fundraiser"
+    ]
+   },
+   "category": "budget",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "teardown",
+   "title": "Tear down, count cash and leave the space as you found it",
+   "why": "Check the agreement's cleanup terms and take photos of the space when you leave.",
+   "phase": "day",
+   "offset": 0,
+   "latest": 0,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "thank_guests",
+   "title": "Thank your guests",
+   "why": "Within a day or two, while it's fresh. Include photos, a next step or an offer.",
+   "phase": "wrap",
+   "offset": -1,
+   "latest": -3,
+   "priority": 1,
+   "when": {},
+   "category": "guests",
+   "draft": "thank_you_guests",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "thank_vendors",
+   "title": "Thank vendors, partners and volunteers",
+   "why": "A short, specific thank-you builds the team for next time. Offer a review if they did well.",
+   "phase": "wrap",
+   "offset": -2,
+   "latest": -5,
+   "priority": 1,
+   "when": {},
+   "category": "vendors",
+   "draft": "thank_you_vendors",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "recap_post",
+   "title": "Post a recap with photos",
+   "why": "Thank people by name only with their permission, and share the result if it's good news.",
+   "phase": "wrap",
+   "offset": -2,
+   "latest": -7,
+   "priority": 2,
+   "when": {},
+   "category": "promo",
+   "draft": "social_recap",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "follow_up",
+   "title": "Follow up with new contacts and buyers",
+   "why": "The people who came are your warmest leads. Follow up while they remember you.",
+   "phase": "wrap",
+   "offset": -3,
+   "latest": -10,
+   "priority": 1,
+   "when": {
+    "type": [
+     "launch",
+     "popup",
+     "open_house",
+     "workshop",
+     "other"
+    ]
+   },
+   "category": "guests",
+   "draft": "follow_up",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "donor_receipts",
+   "title": "Make sure donors get receipts and thank-yous from the charity",
+   "why": "Agree who sends what, and share the real total raised.",
+   "phase": "wrap",
+   "offset": -3,
+   "latest": -14,
+   "priority": 1,
+   "when": {
+    "type": [
+     "fundraiser"
+    ]
+   },
+   "category": "budget",
+   "draft": null,
+   "link": "charity_receipts",
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "survey",
+   "title": "Send a short feedback survey",
+   "why": "Three or four questions at most, sent within a few days.",
+   "phase": "wrap",
+   "offset": -2,
+   "latest": -7,
+   "priority": 3,
+   "when": {},
+   "category": "guests",
+   "draft": "feedback_survey",
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "reconcile",
+   "title": "Pay final invoices and close out the budget",
+   "why": "Enter every actual cost so the tracker shows the true total and what to change next time.",
+   "phase": "wrap",
+   "offset": -7,
+   "latest": -14,
+   "priority": 1,
+   "when": {},
+   "category": "budget",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  },
+  {
+   "id": "results",
+   "title": "Compare results with your goal and write down what to repeat and what to change",
+   "why": "Three things to keep, three to change, while it's fresh.",
+   "phase": "wrap",
+   "offset": -7,
+   "latest": -14,
+   "priority": 1,
+   "when": {},
+   "category": "plan",
+   "draft": null,
+   "link": null,
+   "vendor_contact": false,
+   "after": [],
+   "min_runway": 0
+  }
+ ]
+}

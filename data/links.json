@@ -1,0 +1,122 @@
+{
+ "links": {
+  "permits": {
+   "generic": "Ask your city or county (or local council) which permits apply and how much notice they need. Common ones: special event or temporary use, tent, amplified sound, street or sidewalk use, signs, temporary food, alcohol, and occupancy.",
+   "US": [
+    {
+     "label": "Small business guide: licenses and permits (US federal)",
+     "url": "https://www.sba.gov/counseling/launch-your-business/#licenses-permits",
+     "expect": "Apply for licenses and permits"
+    }
+   ],
+   "UK": [
+    {
+     "label": "Find a licence (UK government)",
+     "url": "https://www.gov.uk/find-licences",
+     "expect": "Find a licence"
+    },
+    {
+     "label": "Organising a voluntary event: a 'can do' guide (UK government)",
+     "url": "https://www.gov.uk/government/publications/can-do-guide-for-organisers-of-voluntary-events",
+     "expect": "can do"
+    }
+   ],
+   "CA": [
+    {
+     "label": "Permits and licences finder (Canada)",
+     "url": "https://bizpal.ca/",
+     "expect": "permits and licences"
+    }
+   ],
+   "AU": [
+    {
+     "label": "Business licence and information service (Australian government)",
+     "url": "https://ablis.business.gov.au/",
+     "expect": "licences you need"
+    }
+   ]
+  },
+  "alcohol": {
+   "generic": "Your local or state licensing office decides whether you need a license to sell or serve alcohol, and how long it takes. Selling usually needs one; free serving may too.",
+   "UK": [
+    {
+     "label": "Temporary Events Notice (England and Wales)",
+     "url": "https://www.gov.uk/find-licences/temporary-events-notice",
+     "expect": "Temporary Event Notice"
+    }
+   ]
+  },
+  "insurance": {
+   "generic": "Ask your insurance agent whether your policy covers this event, guests and off-site locations, and about one-day event cover and liquor liability.",
+   "US": [
+    {
+     "label": "Small business guide: business insurance (US federal)",
+     "url": "https://www.sba.gov/counseling/launch-your-business/#business-insurance",
+     "expect": "Get business insurance"
+    }
+   ],
+   "AU": [
+    {
+     "label": "Business insurance (Australian government)",
+     "url": "https://business.gov.au/risk-management/insurance",
+     "expect": "insurance"
+    }
+   ]
+  },
+  "taxes": {
+   "generic": "Selling at a temporary location may mean collecting sales tax there. Ask your tax office, accountant or the market organizer.",
+   "US": [
+    {
+     "label": "Small business guide: pay taxes (US federal)",
+     "url": "https://www.sba.gov/counseling/manage-your-business/#pay-taxes",
+     "expect": "Pay taxes"
+    }
+   ]
+  },
+  "accessibility": {
+   "generic": "Plan step-free entry, clear routes, seating, an accessible restroom, readable signs and a microphone or captions for talks. Ask guests about access needs when they sign up.",
+   "US": [
+    {
+     "label": "ADA guide for businesses open to the public (US Department of Justice)",
+     "url": "https://www.ada.gov/resources/title-iii-primer/",
+     "expect": "public accommodations"
+    }
+   ]
+  },
+  "charity_receipts": {
+   "generic": "Only a qualified charity can give donors a tax receipt. Agree with the charity who collects the money, who sends receipts and how its name and logo may be used.",
+   "US": [
+    {
+     "label": "Charitable contributions: quid pro quo disclosures (IRS)",
+     "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-quid-pro-quo-contributions",
+     "expect": "quid pro quo"
+    },
+    {
+     "label": "Substantiating charitable contributions (IRS)",
+     "url": "https://www.irs.gov/charities-non-profits/substantiating-charitable-contributions",
+     "expect": "written acknowledgment"
+    }
+   ]
+  },
+  "gaming": {
+   "generic": "Raffles, auctions with chance elements and other games of chance are often restricted to registered charities and may need a permit. Check your state or local rules before selling tickets.",
+   "US": [
+    {
+     "label": "Tax-exempt organizations and gaming (IRS Publication 3079, PDF)",
+     "url": "https://www.irs.gov/pub/irs-pdf/p3079.pdf",
+     "expect": null
+    }
+   ]
+  },
+  "emergency": {
+   "generic": "Know your exits and the nearest hospital, keep a first aid kit, and decide who calls emergency services and from where.",
+   "US": [
+    {
+     "label": "Emergency planning for businesses (US government)",
+     "url": "https://www.ready.gov/business",
+     "expect": "business"
+    }
+   ]
+  }
+ }
+}

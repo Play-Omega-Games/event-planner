@@ -1,0 +1,102 @@
+{
+ "types": {
+  "launch": {
+   "label": "Launch party",
+   "lead_days": 56,
+   "goal_examples": [
+    "first-week sales",
+    "sign-ups or pre-orders",
+    "people who try the product"
+   ]
+  },
+  "workshop": {
+   "label": "Workshop or class",
+   "lead_days": 42,
+   "goal_examples": [
+    "seats filled",
+    "attendees who book a next session",
+    "feedback score you set"
+   ]
+  },
+  "open_house": {
+   "label": "Open house",
+   "lead_days": 28,
+   "goal_examples": [
+    "new faces through the door",
+    "email sign-ups",
+    "appointments booked"
+   ]
+  },
+  "popup": {
+   "label": "Pop-up shop",
+   "lead_days": 42,
+   "goal_examples": [
+    "sales",
+    "new customers",
+    "email or social follows"
+   ]
+  },
+  "fundraiser": {
+   "label": "Fundraiser",
+   "lead_days": 84,
+   "goal_examples": [
+    "amount raised for the cause",
+    "number of donors",
+    "sponsors signed"
+   ]
+  },
+  "other": {
+   "label": "Something else",
+   "lead_days": 56,
+   "goal_examples": [
+    "turnout",
+    "sales",
+    "sign-ups"
+   ]
+  }
+ },
+ "answers": {
+  "venue": [
+   "own",
+   "rented",
+   "outdoor",
+   "host",
+   "tbd"
+  ],
+  "food": [
+   "none",
+   "light",
+   "meal",
+   "sellers"
+  ],
+  "alcohol": [
+   "none",
+   "served",
+   "sold"
+  ],
+  "entry": [
+   "free",
+   "rsvp",
+   "tickets",
+   "donations"
+  ],
+  "size": [
+   "small",
+   "medium",
+   "large",
+   "xl"
+  ],
+  "help": [
+   "solo",
+   "team",
+   "planner"
+  ],
+  "country": [
+   "US",
+   "UK",
+   "CA",
+   "AU",
+   "other"
+  ]
+ }
+}

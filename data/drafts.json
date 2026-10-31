@@ -1,0 +1,405 @@
+{
+ "drafts": [
+  {
+   "id": "venue_inquiry",
+   "name": "Venue or host space inquiry",
+   "audience": "vendor",
+   "purpose": "Get comparable quotes and terms from two or three spaces.",
+   "must_include": [
+    "event type and goal",
+    "date and backup date",
+    "hours including setup and teardown",
+    "headcount",
+    "food and drink plans",
+    "questions: what's included, deposit and cancellation, weather policy, insurance requirements, end time and noise rules, accessibility, load-in and parking, preferred or required vendors"
+   ],
+   "skeleton": "Subject: Event inquiry for {date_short}: {event_name}\n\nHi [name],\n\nI run {business_name} and I'm planning a {event_type_lower} for about {headcount} guests on {date_long}, from {time_window}, with a backup date of [backup date]. We'd need access from [setup time] for setup and until [teardown time] to clear out.\n\nCould you tell me:\n1. Is the space available on either date, and what's the cost for those hours?\n2. What's included (tables, chairs, sound, Wi-Fi, cleanup), and what's extra?\n3. The deposit, payment dates, and cancellation and weather terms?\n4. Insurance you require from us and from our vendors?\n5. Any rules on end time, noise, decorations, food, drink or outside vendors?\n6. Step-free access, restrooms, parking and the load-in route?\n\nHappy to visit. Thanks so much,\n{owner_name}\n{business_name}",
+   "channel": "email"
+  },
+  {
+   "id": "caterer_inquiry",
+   "name": "Caterer inquiry",
+   "audience": "vendor",
+   "purpose": "Get comparable food quotes.",
+   "must_include": [
+    "headcount",
+    "service style",
+    "timing",
+    "dietary needs",
+    "what's included",
+    "final headcount deadline",
+    "insurance and permits"
+   ],
+   "skeleton": "Subject: Catering quote for {date_short}: about {headcount} guests\n\nHi [name],\n\nI'm planning a {event_type_lower} on {date_long} at {venue_name}, with food served from [serving time]. We expect about {headcount} guests and are thinking of {food_style}.\n\nCould you send a quote, including:\n1. Suggested menu and price per person or per item\n2. Staff, rentals, setup and cleanup: included or extra?\n3. How you handle allergies and dietary needs ([list any you know])\n4. Deposit, payment dates and cancellation terms\n5. The date you need our final headcount\n6. Your insurance certificate and any permits for serving at {venue_name}\n\nThank you,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "vendor_inquiry",
+   "name": "Vendor inquiry (photographer, entertainment, speaker, food seller)",
+   "audience": "vendor",
+   "purpose": "Check availability, price and needs for one vendor.",
+   "must_include": [
+    "what you want them to do",
+    "date, times, place",
+    "audience size",
+    "their needs (power, space, parking)",
+    "price, deposit, cancellation",
+    "insurance or permits where relevant"
+   ],
+   "skeleton": "Subject: Are you free on {date_short}? {event_name}\n\nHi [name],\n\nI'm planning {event_name}, a {event_type_lower} for about {headcount} guests on {date_long} at {venue_name}, {time_window}. I'd love to have you [what you'd do].\n\nCould you let me know your availability and rate, what you'd need from us on the day (power, space, parking, a meal), your deposit and cancellation terms, and [insurance certificate or permits, if relevant]?\n\nThanks,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "rentals_inquiry",
+   "name": "Rentals inquiry",
+   "audience": "vendor",
+   "purpose": "Reserve tables, chairs, tent, linens or sound.",
+   "must_include": [
+    "item list with quantities",
+    "delivery and pickup windows",
+    "who sets up",
+    "weather and cancellation terms",
+    "deposit"
+   ],
+   "skeleton": "Subject: Rental quote for {date_short}\n\nHi [name],\n\nCould you quote the following for {date_long} at {venue_address}?\n[item and quantity list]\n\nPlease include delivery and pickup windows, whether your team sets up, the deposit, and your terms for weather and cancellation.\n\nThank you,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "booking_confirmation",
+   "name": "Booking confirmation (put the deal in writing)",
+   "audience": "vendor",
+   "purpose": "Recap the agreed terms so both sides have the same record.",
+   "must_include": [
+    "date and times",
+    "what's included",
+    "price, deposit, balance and due dates",
+    "cancellation terms as you understood them",
+    "contact on the day"
+   ],
+   "skeleton": "Subject: Confirming {event_name} on {date_short}\n\nHi [name],\n\nThanks for confirming. Here's what I have, so we're on the same page:\n- Date and times: {date_long}, access from [time], event {time_window}, cleared by [time]\n- Included: [list]\n- Price: [total], deposit [amount] paid on [date], balance [amount] due [date]\n- Cancellation and weather: [as agreed]\n- Day-of contact: {owner_name}, [phone]\n\nPlease let me know if anything here differs from your records.\n\nBest,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "coi_request",
+   "name": "Certificate of insurance request",
+   "audience": "vendor",
+   "purpose": "Collect proof of a vendor's insurance before the event.",
+   "must_include": [
+    "event name, date and place",
+    "what the venue requires",
+    "deadline"
+   ],
+   "skeleton": "Subject: Insurance certificate for {event_name}\n\nHi [name],\n\nCould you send a certificate of insurance for {event_name} on {date_long} at {venue_name} by [date]? [The venue asks to be listed as additional insured: venue legal name and address.]\n\nThanks so much,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "vendor_final_details",
+   "name": "Final details to a vendor",
+   "audience": "vendor",
+   "purpose": "Confirm logistics a week or so out.",
+   "must_include": [
+    "arrival and setup time and place",
+    "parking and load-in",
+    "day-of contact",
+    "what they bring",
+    "final amount and when it's paid"
+   ],
+   "skeleton": "Subject: Final details for {date_short}: {event_name}\n\nHi [name],\n\nLooking forward to {date_weekday}! The final details:\n- Arrival: [time] at [entrance], setup in [location]\n- Parking and load-in: [details]\n- Doors open {start_time}; you're on from [time] to [time]\n- Day-of contact: [name], [phone]\n- Final amount: [amount], paid [how and when]\n\nAnything you need from us before then?\n\nThanks,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "thank_you_vendors",
+   "name": "Thank-you to vendors, partners and volunteers",
+   "audience": "vendor",
+   "purpose": "Say thanks specifically and keep the relationship.",
+   "must_include": [
+    "one specific thing they did well",
+    "the result if good",
+    "an offer of a review or referral"
+   ],
+   "skeleton": "Subject: Thank you for {event_name}\n\nHi [name],\n\nThank you for [specific thing]. [A guest said, or a result, only if real.] It made a real difference, and I'd be glad to [leave a review / recommend you].\n\nHope to work together again,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "vendor_decline",
+   "name": "Polite no-thank-you to a vendor not chosen",
+   "audience": "vendor",
+   "purpose": "Close the loop kindly with vendors who quoted.",
+   "must_include": [
+    "thanks for the quote",
+    "brief reason if comfortable",
+    "door open for next time"
+   ],
+   "skeleton": "Subject: Thanks for your quote\n\nHi [name],\n\nThank you for the quote for {event_name}. We've gone another way this time, but I appreciated your quick, clear reply and would be glad to ask you again.\n\nBest,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "sponsor_ask",
+   "name": "Sponsorship or in-kind donation ask",
+   "audience": "sponsor",
+   "purpose": "Invite a local business to support the fundraiser.",
+   "must_include": [
+    "the cause and goal",
+    "the ask (amount or item)",
+    "what they get in return",
+    "deadline",
+    "that the charity has approved the use of its name, if it has"
+   ],
+   "skeleton": "Subject: Would {sponsor_name} help us support [cause]?\n\nHi [name],\n\nOn {date_long}, {business_name} is hosting {event_name} to raise money for [cause], with a goal of [goal]. I'm reaching out to a few neighbors we admire.\n\nWould you consider [the ask]? In return we'd [thank you on signs and posts / a table / a mention from the stage]. If you can let me know by [date], we'll include you in all the materials.\n\nThank you for considering it,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "save_the_date",
+   "name": "Save the date",
+   "audience": "guest",
+   "purpose": "Get the date on calendars early.",
+   "must_include": [
+    "what, when, where (or the area)",
+    "one line on why",
+    "invite to follow"
+   ],
+   "skeleton": "Subject: Save the date: {event_name}, {date_short}\n\nMark your calendar: {event_name} at {venue_name} on {date_long}. [One line on why it's worth coming.] The full invitation is coming soon.\n\n{owner_name}, {business_name}",
+   "channel": "email"
+  },
+  {
+   "id": "invitation",
+   "name": "Invitation",
+   "audience": "guest",
+   "purpose": "Invite guests with everything they need to say yes.",
+   "must_include": [
+    "the hook",
+    "date, time, place",
+    "what to expect",
+    "how to respond and by when",
+    "access or parking note"
+   ],
+   "skeleton": "Subject: You're invited: {event_name}, {date_short}\n\nHi [first name],\n\n[The hook in one or two sentences.]\n\nWhen: {date_long}, {time_window}\nWhere: {venue_name}, {venue_address}\nWhat to expect: [food, demo, talk, shopping, the cause]\n\n[RSVP or get tickets: link, by date]. [Parking, entrance or accessibility note.]\n\nHope to see you there,\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "rsvp_reminder",
+   "name": "RSVP or ticket reminder",
+   "audience": "guest",
+   "purpose": "Nudge people who haven't responded.",
+   "must_include": [
+    "friendly tone",
+    "key details",
+    "the link and deadline"
+   ],
+   "skeleton": "Subject: Still hoping to see you on {date_weekday}\n\nQuick reminder that {event_name} is on {date_long}, {time_window}, at {venue_name}. [One reason to come.] [RSVP link] by [date] so we can plan for you.",
+   "channel": "email"
+  },
+  {
+   "id": "know_before_you_go",
+   "name": "Know before you go",
+   "audience": "guest",
+   "purpose": "Smooth arrival for confirmed guests.",
+   "must_include": [
+    "start time",
+    "address and entrance",
+    "parking or transit",
+    "accessibility",
+    "what to bring",
+    "a contact for the day"
+   ],
+   "skeleton": "Subject: See you tomorrow: {event_name}\n\nWe're all set for tomorrow, {date_long}, from {start_time}.\n- Address and entrance: {venue_address}, [entrance]\n- Parking: [details]\n- Accessibility: [step-free entrance, seating, restrooms]\n- Bring: [ticket, ID, nothing at all]\n- Questions on the day: [phone]",
+   "channel": "email"
+  },
+  {
+   "id": "weather_update",
+   "name": "Weather update",
+   "audience": "guest",
+   "purpose": "Tell guests and vendors the weather call, the same day it's made.",
+   "must_include": [
+    "the decision",
+    "what changes",
+    "what stays the same"
+   ],
+   "skeleton": "Subject: Weather update for {event_name}\n\n[We're still on, moving inside to (place) / postponing to (date).] [What guests should do differently.] Everything else stays the same. Thanks for rolling with it!",
+   "channel": "email"
+  },
+  {
+   "id": "thank_you_guests",
+   "name": "Thank-you to guests",
+   "audience": "guest",
+   "purpose": "Thank guests and give them a next step.",
+   "must_include": [
+    "thanks",
+    "a highlight or real result",
+    "a next step or offer",
+    "photos link if any"
+   ],
+   "skeleton": "Subject: Thank you for coming to {event_name}\n\nThank you for joining us on {date_weekday}. [A highlight, or the real total raised.] [Photos link.]\n\n[Next step: an offer, the next session, a way to stay in touch.]\n\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "follow_up",
+   "name": "Follow-up to new contacts",
+   "audience": "guest",
+   "purpose": "Turn a visit into a relationship, only for people who agreed to hear from you.",
+   "must_include": [
+    "personal touch",
+    "one clear next step"
+   ],
+   "skeleton": "Subject: Great to meet you at {event_name}\n\nHi [first name], thanks for stopping by. [Something specific you talked about.] [One next step: an offer, a booking link, a question.]\n\n{owner_name}",
+   "channel": "email"
+  },
+  {
+   "id": "feedback_survey",
+   "name": "Feedback survey",
+   "audience": "guest",
+   "purpose": "Learn what to repeat and change.",
+   "must_include": [
+    "three or four short questions",
+    "one open question"
+   ],
+   "skeleton": "Subject: Two minutes to help us do it better?\n\n1. How would you rate {event_name}? (1 to 5)\n2. What was the best part?\n3. What would you change?\n4. Would you come to the next one? (Yes, maybe, no)",
+   "channel": "email"
+  },
+  {
+   "id": "social_announce",
+   "name": "Announcement post",
+   "audience": "social",
+   "purpose": "Announce the event.",
+   "must_include": [
+    "hook",
+    "date, time, place",
+    "how to sign up",
+    "one image idea"
+   ],
+   "skeleton": "[Hook]. Join us for {event_name} on {date_short}, {time_window}, at {venue_name}. [What's happening.] [Sign-up link or 'no RSVP needed'.] [Image idea.]",
+   "channel": "post"
+  },
+  {
+   "id": "social_bts",
+   "name": "Behind-the-scenes post",
+   "audience": "social",
+   "purpose": "Keep momentum.",
+   "must_include": [
+    "a real prep moment",
+    "the date"
+   ],
+   "skeleton": "[A real prep moment.] {event_name} is {days_to_go} days away. [Small teaser.]",
+   "channel": "post"
+  },
+  {
+   "id": "social_countdown",
+   "name": "One-week countdown post",
+   "audience": "social",
+   "purpose": "Remind and excite.",
+   "must_include": [
+    "one specific thing guests will see or get",
+    "date, time, place"
+   ],
+   "skeleton": "One week until {event_name}! [One specific thing.] {date_short}, {time_window}, {venue_name}.",
+   "channel": "post"
+  },
+  {
+   "id": "social_day_before",
+   "name": "Day-before post",
+   "audience": "social",
+   "purpose": "Last call.",
+   "must_include": [
+    "tomorrow",
+    "time and place",
+    "one reason"
+   ],
+   "skeleton": "Tomorrow! {event_name}, {time_window} at {venue_name}. [One reason not to miss it.]",
+   "channel": "post"
+  },
+  {
+   "id": "social_live",
+   "name": "Live post",
+   "audience": "social",
+   "purpose": "Share the moment.",
+   "must_include": [
+    "one photo idea",
+    "short caption"
+   ],
+   "skeleton": "[Photo idea.] We're live at {venue_name} until [time]. Come say hi!",
+   "channel": "post"
+  },
+  {
+   "id": "social_recap",
+   "name": "Recap post",
+   "audience": "social",
+   "purpose": "Thank and show the result.",
+   "must_include": [
+    "thanks",
+    "best photo idea",
+    "real result only if shared"
+   ],
+   "skeleton": "Thank you to everyone who came to {event_name}! [Real highlight or result.] [Thanks to partners, with their permission.]",
+   "channel": "post"
+  },
+  {
+   "id": "partner_share",
+   "name": "Ready-to-share text for partners",
+   "audience": "social",
+   "purpose": "Make it easy for partners to promote.",
+   "must_include": [
+    "short text",
+    "date and link"
+   ],
+   "skeleton": "We're excited to be part of {event_name} with {business_name} on {date_short} at {venue_name}! [Link.]",
+   "channel": "post"
+  },
+  {
+   "id": "listing_blurb",
+   "name": "Event listing blurb",
+   "audience": "social",
+   "purpose": "One description for every calendar.",
+   "must_include": [
+    "50 to 80 words",
+    "what, when, where, cost, how to sign up"
+   ],
+   "skeleton": "{event_name}: [what it is in one sentence]. {date_long}, {time_window}, at {venue_name}, {venue_address}. [Cost or free.] [How to sign up.]",
+   "channel": "listing"
+  },
+  {
+   "id": "press_note",
+   "name": "Local press or newsletter note",
+   "audience": "press",
+   "purpose": "Pitch a short story.",
+   "must_include": [
+    "what's new",
+    "who it helps",
+    "key details",
+    "contact"
+   ],
+   "skeleton": "Subject: Local story: {event_name} on {date_short}\n\nHi [name],\n\n[What's new and why it matters locally, in two sentences.] {event_name} is on {date_long} at {venue_name}, {time_window}, and it's [free / ticketed].\n\nHappy to share photos or answer questions: {owner_name}, [phone or email].",
+   "channel": "email"
+  },
+  {
+   "id": "staff_brief",
+   "name": "Staff and volunteer brief",
+   "audience": "team",
+   "purpose": "Everyone knows their job.",
+   "must_include": [
+    "goal",
+    "schedule",
+    "each person's role",
+    "where things are",
+    "who to ask",
+    "what to do if something goes wrong"
+   ],
+   "skeleton": "{event_name}: team brief for {date_long}\nGoal: {goal}\nArrive: [time]. Doors: {start_time}. Wrap: [time].\nRoles: [name: job] for each person\nWhere things are: [check-in, supplies, first aid kit, restrooms, exits]\nAsk: [lead name and phone]\nIf something goes wrong: [safety plan in one line, and who calls emergency services]",
+   "channel": "doc"
+  },
+  {
+   "id": "run_of_show",
+   "name": "Run of show",
+   "audience": "team",
+   "purpose": "A shared minute-by-minute plan.",
+   "must_include": [
+    "setup to teardown in time order",
+    "owner of each item",
+    "vendor arrivals and contacts",
+    "the peak moment",
+    "backup notes"
+   ],
+   "skeleton": "{event_name}, {date_long}, run of show\n[time]  Setup starts: [who]\n[time]  [Vendor] arrives at [entrance]: contact [phone]\n[time]  Sound, lights, Wi-Fi and payments test: [who]\n{start_time}  Doors open: [who greets]\n[time]  [Peak moment: welcome, reveal, demo]: [who]\n[time]  Last call or closing words: [who]\n[time]  Teardown and cleanup: [who]\nBackup notes: [weather, no-shows, power]",
+   "channel": "doc"
+  }
+ ]
+}
